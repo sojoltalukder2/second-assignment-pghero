@@ -87,7 +87,7 @@ button:hover{ width: 200px;
 }
 /************** highlights section ****************
 ***************************************************/
-.highlights-section{
+.highlights{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -95,13 +95,13 @@ button:hover{ width: 200px;
     padding-left: 70px;
     padding-right: 70px;
 }
-.highlights-section img{
+.highlights img{
     width: 567px;
     height: 427px;
 }
 .highlights-info{
     width: 469px;
-    height: 309px; 
+    height: 400px; 
 }
 .highlights-info h1{
     font-size: 48px;
@@ -177,19 +177,22 @@ footer img{
     .player-info{
         font-size: 35px;
     }
-    .highlights-section{
+    .highlights{
         display: flex;
         flex-direction: column;
         width: 500px;
-        height: 1200px;
-        padding-top: 200px;
+        height: 1300px;
+        padding-top: 300px;
         padding-left: 40px;
     }
-    .highlights-section img{
+    .highlights img{
         width: 550px;
         height: 450px;
-        padding-top: 550px;
+        padding-top: 500px;
         padding-left: 120px;
+    }
+    #euro-final{
+        padding-top: 650px;
     }
     .highlights-info{
         width: 469px;
@@ -198,8 +201,8 @@ footer img{
         padding-left: 100px;
     }
     .highlights-info h1{
-        font-size: 60px;
-        line-height: 80px;
+        font-size: 50px;
+        line-height: 70px;
     }
     footer{
         width: 400px;
