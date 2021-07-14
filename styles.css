@@ -9,6 +9,21 @@ body{
 h1{
     font-weight: 700;
 }
+.navigation{
+    display: flex;
+    background-color: #2D25A0;
+    justify-content: space-between;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    padding-left: 40px;
+}
+.navigation-menu{
+    padding-top: 30px;
+    margin-left: 60px;
+}
 .banner-section{
     display: flex;
     width: 100%;
@@ -35,8 +50,15 @@ button{
     background-color: #E02C6D;
     width: 168px;
     height: 44px;
-    margin-top: 30px;
+    margin: 30px 30px 30px 0px;
+    transition: width 1s, height 1s, font 1s, transform 1s linear ;
 }
+button:hover{ width: 200px;
+    height: 55px;
+    font-size: 20px;
+    transform: rotate(360deg);
+}
+    
 /********** players styles **************
 ****************************************/
 .players-section{
@@ -113,8 +135,11 @@ footer img{
     text-decoration: none;
 }
 /****************** Media Queries ******************
-**********************************/
+****************************************************/
 @media only screen and (max-width:360px) {
+    .navigation{
+        display: none;
+    }
     .banner-section{
         display: flex;
         flex-direction: column;
